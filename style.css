@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body{
+    background: rgb(8, 8, 8);  
+    background-attachment: fixed;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+#inputform{
+    background:rgb(3, 3, 3);
+    border: none;
+    color: blanchedalmond;
+    height: 25px;
+}
+
+#global{
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(214, 214, 214);
+    border: 1px solid rgb(36, 36, 36);
+
+}
+
+#global h1{
+    margin-bottom: 25px;
+}
+
+#menu ul li{
+    transition: all 300ms;
+    
+}
+
+#menu ul li:hover{
+    background: rgb(44, 44, 44);
+    
+}
+
+#posts{
+    width: 50%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.post h2{
+    font-size: 30px;
+}
+.post .date{
+    color: gray;
+    
+}
+
+.post p{
+    margin-top:20px;
+    margin-bottom: 25px;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#sidebar{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    float: right;
+}
+
+#sidebar h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#sidebar img{
+    width: 30%;
+}
+
+#about{
+    border: 1px solid rgb(85, 85, 85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#logout{
+    text-decoration: none;
+    text-align: center;
+    color: gray;
+    padding: 1%;
+    margin-bottom: 2%;
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 5px;
+    margin-top: -20%;
+}
+
+/* Aside Formulario */
+#log{
+    background: transparent;
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 5px;
+    color: rgb(194, 194, 194);
+}
+
+#login{
+    background: rgb(10, 10, 10);
+    /* border: 1px solid rgb(61, 61, 61);  */
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+.inputlogin{
+    background:transparent;
+    border: 1px solid rgb(105, 105, 105);
+    color: rgb(255, 255, 255);
+    height: 25px;
+    font-size: 14px;
+    margin-bottom:5px;
+    border-radius: 5px;
+}
+.inputlogin:focus{
+    background: gray;
+    border: none;
+    color: azure;
+    text-decoration: none;
+    
+}
+.inpSub{
+    
+    margin: 20px 40%; 
+    border: 1px solid rgb(92, 92, 92);
+
+}
+
+#foo{
+    font-size: 12px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: rgb(182, 182, 182);
+}
